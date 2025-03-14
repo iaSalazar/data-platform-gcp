@@ -88,7 +88,8 @@ RUN ${CONDA_HOME}/bin/mamba install -n base \
     transformers \
     virtualenv \
     xgboost \
-    psycopg2-binary
+    psycopg2-binary \
+    ydata-profiling
 # Install pip packages.
 RUN ${PYSPARK_PYTHON} -m pip install --no-cache-dir mlflow[auth] google-cloud-secret-manager
 
