@@ -1,3 +1,14 @@
 /venv
 /data
 basic_auth.ini
+
+
+# Python dependencies
+__pycache__/
+*.py[cod]
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
