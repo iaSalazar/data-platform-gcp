@@ -26,4 +26,5 @@ mlflow server \
   --port 8080 \
   --backend-store-uri $POSTGRESQL_URL \
   --artifacts-destination $MLFLOW_GCS_URL \
+  --default-artifact-root $MLFLOW_GCS_URL \
   --app-name basic-auth
